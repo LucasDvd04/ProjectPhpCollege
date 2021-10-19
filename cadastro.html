@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bem-Vindo</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/cad.css">
+	<script src="JS/forms.js"></script>
+</head>
+<body>
+	<div id="logo"><a href="index.html">
+	<img src="logo/logo.png" width="80px" height="80px"></a>
+	</div>
+
+	<div id="menu">
+		<ul align="right">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="cadastro.html">Cadastrar</a></li>
+			<li><a href="login.html">Login</a></li>
+		</ul>
+	</div>
+	<div id="cad" align="center">
+		<form method="post" action="http://localhost/starsite/cad.php">
+			<p>Nome Completo:</p>
+			<input type="text" name="nome"placeholder="Seu Nome....." minlength="6" maxlength="50" required><br>
+			<p>E-Mail:</p>
+			<input type="email" name="email"placeholder="Seu E-Mail......"required><br>
+			<p>Telefone:</p>
+			<input type="text" name="tel" onkeyup="telefone(this);" placeholder="Seu Telefone...."minlength="13" maxlength="15"><br>
+			<p>Endereço:</p>
+			<input type="text" name="endereco"placeholder="Seu Endereço....."minlength="10" maxlength="50"><br>
+			<p>Senha:</p>
+			<input type="password" name="senha"placeholder="Senha...."minlength="6" maxlength="20"required><br>
+			<p>Data de Nascimento:</p>	
+			<input type="date" name="Dt_Nascimento" min="1979-12-31" max="2019-01-02"> <br>
+			<input id="button"type="submit" name="send" value="Cadastrar">
+
+		</form>
+	</div>
+
+	<div id="footer">
+	<footer>Nome/Matricula</footer>
+	</div>
+</body>
+</html>

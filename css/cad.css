@@ -1,0 +1,68 @@
+body{
+	background-image: url("backs/back2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+	background-size: cover;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:transparent;
+    list-style:none;
+    padding-top: 5px;
+    position: sticky;
+}
+#menu ul li {
+	 display: inline; 
+	 font-size: 18px;
+}
+
+#menu ul li a {
+    padding: 4px 16px;
+    display: inline-block;
+    background-color:transparent;
+    color: white;
+    text-decoration: none;
+    border-bottom:3px ;
+    font-family: Helvética;
+}
+#logo{
+	position: absolute;
+	font-size: 25px;
+	font-family: Monotype Corsiva;
+	color: white;
+}
+
+#footer{
+	color: white;
+	text-align: center;
+	position: fixed;
+    bottom:0%;
+    width:100%;
+}
+
+#cad input{ 
+	float: center;
+	font-family: Monotype Corsiva;
+	width: 280px;
+	height: 20px;	
+	border-style: inset;
+	border-radius: 10px 20px 30px;
+
+}	
+#cad {
+	color: white;
+	padding: -9px -10px;
+}
+#cad p{
+	font-family: Monotype Corsiva;
+	position: relative;
+	font-size: 16px;
+}
+#button{
+	position: relative;
+	top: 30px;
+	border-style: inset;
+	border-radius: 05px 20px 30px;	
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bem-Vindo</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/log.css">
+	<script type="js/login.js"></script>
+</head>
+<body onload="verificarLogado();">
+	<div id="logo"><a href="index.html">
+	<img src="logo/logo.png" width="80px" height="80px"></a>
+	</div>
+
+	<div id="menu">
+		<ul align="right">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="cadastro.html">Cadastrar</a></li>
+			<li><a href="login.html">Login</a></li>
+		</ul>
+	</div>
+	<div id="cad" align="center">
+		<form action="http://localhost/starsite/log.php" method="post">
+			<p>Email:</p>
+			<input class="box" type="email" name="email"placeholder="Seu Email....."><br>
+			<p>Senha:</p>
+			<input class="box" type="password" name="senha"placeholder="Senha...."><br>
+			<input id="check" type="checkbox" name="conectado" value="1">
+			Mantenha-me conectado<br/>
+			<input id="button"type="submit" name="send" value="Entrar">
+		</form>
+	</div>
+
+	<div id="footer">
+	<footer>Nome/Matricula</footer>
+	</div>
+</body>
+</html>
